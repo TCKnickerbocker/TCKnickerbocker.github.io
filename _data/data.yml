@@ -1,37 +1,26 @@
 sidebar:
   position: right
-  # about: True
   education: True
 
   # Profile information
   name: Thomas Knickerbocker
-  tagline: Full Stack Developer
-  avatar: profile.png # Place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  tagline: Full Stack Developer | Machine Learning & Distributed Systems Enthusiast
+  avatar: profile.jpg # Make sure the picture is inside /assets/images/
 
   # Sidebar links
   email: TCKnickerbocker@gmail.com
   phone: 612 352 0082
   timezone: Central Standard Timezone
   citizenship:
-  website:
+  website: # Add if you have a personal website
   linkedin: https://www.linkedin.com/in/thomas-knickerbocker/
-  xing:
   github: https://github.com/TCKnickerbocker
-  telegram:
-  gitlab:
-  bitbucket:
-  twitter:
-  stack-overflow:
-  codewars:
-  goodreads:
-  pdf:
 
   languages:
     title: Languages
     info:
       - idiom: English
         level: Native
-
       - idiom: Latin
         level: Novice
 
@@ -39,24 +28,15 @@ sidebar:
     title: Interests
     info:
       - item: Video Games
-        link:
-
       - item: Basketball
-        link:
-
       - item: Fitness
-        link:
-
       - item: Skateboarding
-        link:
-
       - item: Cooking
-        link:
 
 career-profile:
   title: Career Profile
   summary: |
-    A highly efficient and personable problem solver with strong experience and a breadth of proficiency in technology searching for stimulating and meaningful software or data science work.
+    A versatile and efficient full-stack developer with an interest in Machine Learning & Distributed Systems. Adept at solving complex technical challenges, with hands-on experience in software engineering, machine learning, and cloud technologies.
 
 education:
   title: Education
@@ -65,7 +45,10 @@ education:
       university: University of Minnesota, Twin Cities
       time: Exp. May 2025
       details: |
-        Exp. MS Minor, Management of Technology
+        Concentrations: Machine Learning, Distributed Systems
+        MS Minor, Management of Technology
+        GPA: 3.58 / 4.00
+        Undergraduate Mentor, Event Coordinator of Gen AI Club
 
     - degree: Bachelors of Science, Computer Science
       university: University of Minnesota, Twin Cities
@@ -82,17 +65,28 @@ experiences:
       time: Jun. 2023 - Aug. 2023
       company: Optum, Eden Prairie, MN
       details: |
-        Thrived in a dynamic cross-functional, strictly deadline-driven team environment. 
-        Developed a hosted and multithreaded internal python-based LLM chatbot, estimated to save 48% of response time for employee questions, equating to an estimated $800,000 annually.
-        Led the integration of APIs such as SharePoint into an automated pipeline, streamlining the retrieval and analysis of 10,000+ company documents weekly, enhancing project efficiency.
+        Developed a multithreaded, hosted LLM chatbot that automates response to RFPs, estimated to reduce response time by 48%, saving ~$800,000 annually.
+        Led API integrations such as SharePoint into an automated pipeline, streamlining the retrieval and analysis of 10,000+ documents weekly.
 
     - role: Software Engineering Intern
       time: Jun. 2022 - Aug. 2022
       company: Optum, Eden Prairie, MN
       details: |
-        Attained the highest achievable performance review score, placing in the top ~5% of interns.
-        Worked one on one with an accountant to automate multiple financial reports using Python and SQL.
-        Helped in creating a full-stack application to be used by thousands of clinicians, employing Angular and Java Spring Boot.
+        Attained top ~5% performance review score.
+        Automated financial reports using Python and SQL, creating efficiencies in reporting workflows.
+        Co-developed a full-stack application for clinicians, using Angular and Java Spring Boot.
+
+    - role: Consultant, Co-Founder
+      time: Jun. 2024 – Present
+      company: Knick, LLC
+      details: |
+        Established company operations, developed website, and managed finances and client relations.
+
+    - role: Volunteer Research Assistant
+      time: Oct. 2024 – Present
+      company: University of Minnesota Distributed Systems Group
+      details: |
+        Assisting in developing a dataset and building an LLM for creating distributed computing clusters.
 
 certifications:
   title: Certifications
@@ -103,49 +97,22 @@ certifications:
       organization: Amazon Web Services
       credentialid: 07e2530c1d104bf8b8b33aa396a41b34
       credentialurl: https://cp.certmetrics.com/amazon/en/public/verify/credential
-      credentialname: Received Jan 2024.
+      credentialname: Received Jan 2024
 
 projects:
   title: Projects
-  intro: >
-    You can list your side projects in this
-    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
   assignments:
     - title: Schedule Builder
       link: "#"
-      tagline: "Solely made a beautiful full-stack application using Nodejs, Fetch API, jQuery, and SQL. Empowered users to securely create accounts and then make, edit, and visualize their schedules."
+      tagline: "Full-stack app using Nodejs, Fetch API, jQuery, and SQL, enabling users to create, edit, and visualize schedules."
 
     - title: Image Neural Network
       link: "#"
-      tagline: "Created a Convolutional Neural Network utilizing PyTorch, NumPy, Seaborn, Pandas, and Sci-kit Learn. Trained on 50,000+ images using train-test split and one-hot encoded classes."
-
-    - title: Client & Server
-      link: "#"
-      tagline: "Client and server constructed completely in C Server runs in the background, exploiting sockets, signals, multithreading, server-side caching, and a server log file to quickly, reliably, and efficiently deliver requested files to the client."
+      tagline: "Built a Convolutional Neural Network in PyTorch trained on 50,000+ images to identify misclassifications and trends in errors."
 
     - title: Recipe & Pantry Tracker
       link: "#"
-      tagline: "Developed a responsive react app enabling users to create a virtual pantry, save recipes for later use, and modify existing recipes to their liking. Utilizes an Azure NoSQL mongoDB backend with full CRUD functionality & API integration."
-
-# oss:
-#     title: OSS Contributions
-#     intro: >
-#       You can list your open source software contributions in this
-#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-#     contributions:
-#       - title: Tempo
-#         link: "#"
-#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-#       - title: Atom
-#         link: "#"
-#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-#       - title: Delta
-#         link: "#"
-#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      tagline: "Responsive React app with CRUD functionalities using Azure NoSQL MongoDB backend and API integrations."
 
 skills:
   title: Skills &amp; Proficiency
@@ -153,15 +120,18 @@ skills:
   toolset:
     - name: Python, Pandas, & Numpy
       level: 89%
-
-    - name: HTML5 & CSS
+    - name: HTML, CSS, & JS
       level: 85%
-
-    - name: ML & AI Frameworks
+    - name: Machine Learning & AI Frameworks
       level: 82%
-
-    - name: Javascript & jQuery
-      level: 78%
-
     - name: React
       level: 58%
+    - name: C, C++, & Java
+      level: 54%
+
+technologies:
+  title: Languages, Technologies & Frameworks
+  details:
+    - Languages: Python, JavaScript, HTML, CSS, C, C++, Java, TypeScript, JSON, SQL
+    - Technologies: AWS (cloud certified), Azure, Kubernetes, Jenkins, Terraform, Postman, Linux, Git
+    - Frameworks: React, PyTorch, Flask, FastAPI, GPT, BERT, Keras, SciKit-Learn, PostgreSQL, MongoDB
